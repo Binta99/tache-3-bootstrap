@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap-portfolio-landing-by-codeEducation</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="docs/style.css">
+    <link rel="stylesheet" href="docs/css/bootstrap.min.css">
+    <link rel="icon" type="image/png" href="docs/favicon.png">
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="75">
+   
+    <!-- navbar-section -->
+    <header class="header_wrapper">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+              <a class="navbar-brand" href="#"><img src="docs/logo.png" class="img-fluid" alt="logo">
+            </a>
+              <button class="navbar-toggler bg-secondary" type="button" data-bs-toggle="collapse"
+               data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                 <!-- <span class="navbar-toggler-icon"></span>  -->
+                 <i class="fa-solid fa-bars-staggered navbar-toggler-icon bg-secondary"></i> 
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav menu-navbar-nav text-center bg-dark">
+                  <li class="nav-item active">
+                    <a class="nav-link  text-white " aria-current="page" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#services">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#portfolio">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#contact">Contact</a>
+                  </li>
+                  <li class="nav-item mt-3 mt-lg-0">
+                    <a class="main-btn text-white" href="#services">Hire me</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    
+    </header>
+<!-- ---------- -->
+
+    <section id="home" class="banner_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center text-md-start">
+                    <h6 class="fs-6 text-light">WELCOM TO MY WORLD</h6>
+                    <h1 class=" fs-1 fw-bold text-white">I'm Joe Biden <br> <span>JS Developper,</span> <br>based in USA.</h1>
+                    <div class="mt-4">
+                        <a class="main-btn" href="">Download Cv</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+    <!-- script-------- -->
+    <script src="https://kit.fontawesome.com/740f733f02.js" crossorigin="anonymous"></script>
+    <script>
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new 
+         bootstrap.Tooltip(tooltipTriggerEl))
+    </script>
+    <script src="docs/js/bootstrap.bundle.min.js"> </script>
+    <!-- ---------- -->
+</body>
+</html>
