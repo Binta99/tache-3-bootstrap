@@ -1,82 +1,630 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>bootstrap-portfolio-landing-by-codeEducation</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="docs/style.css">
-    <link rel="stylesheet" href="docs/css/bootstrap.min.css">
-    <link rel="icon" type="image/png" href="docs/favicon.png">
-</head>
-<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="75">
-   
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="docs/style.css" />
+    <link rel="stylesheet" href="docs/css/bootstrap.min.css" />
+    <link rel="icon" type="image/png" href="docs/favicon.png" />
+  </head>
+  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="75">
     <!-- navbar-section -->
     <header class="header_wrapper">
-        <nav class="navbar navbar-expand-lg fixed-top">
-            <div class="container">
-              <a class="navbar-brand" href="#"><img src="docs/logo.png" class="img-fluid" alt="logo">
-            </a>
-              <button class="navbar-toggler bg-secondary" type="button" data-bs-toggle="collapse"
-               data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                 <!-- <span class="navbar-toggler-icon"></span>  -->
-                 <i class="fa-solid fa-bars-staggered navbar-toggler-icon bg-secondary"></i> 
-              </button>
-              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav menu-navbar-nav text-center bg-dark">
-                  <li class="nav-item active">
-                    <a class="nav-link  text-white " aria-current="page" href="#home">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white" href="#about">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white" href="#services">Services</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white" href="#portfolio">Portfolio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white" href="#contact">Contact</a>
-                  </li>
-                  <li class="nav-item mt-3 mt-lg-0">
-                    <a class="main-btn text-white" href="#services">Hire me</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-    
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#"
+            ><img src="docs/logo.png" class="img-fluid" alt="logo" />
+          </a>
+          <button
+            class="navbar-toggler bg-sm-secondary"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <!-- <span class="navbar-toggler-icon"></span>  -->
+            <i class="fa-solid fa-bars navbar-toggler-icon bg-secondary"></i>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav menu-navbar-nav text-center bg-dark">
+              <li class="nav-item active">
+                <a class="nav-link text-white" aria-current="page" href="#home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#contact">Contact</a>
+              </li>
+              <li class="nav-item mt-3 mt-lg-0">
+                <a class="main-btn text-white" href="#services">Hire me</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
-<!-- ---------- -->
+    <!-- -----------home------ -->
 
     <section id="home" class="banner_wrapper">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 text-center text-md-start">
-                    <h6 class="fs-6 text-light">WELCOM TO MY WORLD</h6>
-                    <h1 class=" fs-1 fw-bold text-white">I'm Joe Biden <br> <span>JS Developper,</span> <br>based in USA.</h1>
-                    <div class="mt-4">
-                        <a class="main-btn" href="">Download Cv</a>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center text-md-start">
+            <h6 class="fs-6 text-light">WELCOM TO MY WORLD</h6>
+            <h1 class="fs-1 fw-bold text-white">
+              I'm Joe Biden <br />
+              <span>JS Developper,</span> <br />based in USA.
+            </h1>
+            <div class="mt-4">
+              <a class="main-btn" href="">Download Cv</a>
             </div>
+          </div>
         </div>
-
+      </div>
     </section>
 
+    <!-- about--------------- -->
+    <section id="about" class="about-wrapper">
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-lg-5 mb-4 mb-lg-0">
+            <img
+              src="docs/about.jpg"
+              class="img-fluid rounded-3"
+              alt="about-us"
+            />
+          </div>
+          <div class="col-lg-7 ps-lg-5 text-center text-lg-start">
+            <div class="my-3 mb-lg-0">
+              <span class="Subtitle fw-bold"> My About Details</span>
+              <h2>About Me</h2>
+              <p>
+                There are many variations of passages of lorems Ipsum available,
+                but the majority have suffered in some form, by injectecd
+                humour.
+              </p>
+            </div>
 
+            <div class="pt-4">
+              <ul
+                class="nav nav-pills justify-content-center justify-content-lg-between mb-3"
+                id="pills-tab"
+                role="tablist"
+              >
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link active"
+                    id="pills-skill-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-skill"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-skill"
+                    aria-selected="true"
+                  >
+                    Main Skills
+                  </button>
+                </li>
 
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="pills-Award-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-Award"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-Award"
+                    aria-selected="false"
+                  >
+                    Awards
+                  </button>
+                </li>
 
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="pills-Experiance-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-Experiance"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-Experiance"
+                    aria-selected="false"
+                  >
+                    Experiance
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="pills-Education-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-Education"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-Education"
+                    aria-selected="false"
+                  >
+                    Education
+                  </button>
+                </li>
+              </ul>
+
+              <div class="tab-content" id="pills-tabContent">
+                <div
+                  class="tab-pane fade show active"
+                  id="pills-skill"
+                  role="tabpanel"
+                  aria-labelledby="pills-Skill-tab"
+                  tabindex="0"
+                >
+                  <div class="single-progress">
+                    <h6>Designing</h6>
+
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        aria-label="Basic example"
+                        aria-valuenow="25"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="width: 95%"
+                      ></div>
+                    </div>
+                    <span class="label">95%</span>
+                  </div>
+
+                  <div class="single-progress">
+                    <h6>Managment</h6>
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        aria-label="Basic example"
+                        aria-valuenow="25"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="width: 85%"
+                      ></div>
+                    </div>
+                    <span class="label">85%</span>
+                  </div>
+
+                  <div class="single-progress">
+                    <h6>Marketing</h6>
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        aria-label="Basic example"
+                        aria-valuenow="25"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="width: 75%"
+                      ></div>
+                    </div>
+                    <span class="label">75%</span>
+                  </div>
+
+                  <div class="single-progress">
+                    <h6>Development</h6>
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        aria-label="Basic example"
+                        aria-valuenow="25"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="width: 80%"
+                      ></div>
+                    </div>
+                    <span class="label">80%</span>
+                  </div>
+                </div>
+
+                <div
+                  class="tab-pane fade"
+                  id="pills-Award"
+                  role="tabpanel"
+                  aria-labelledby="pills-Award-tab"
+                  tabindex="0"
+                >
+                  <ul class="text-start ps-0">
+                    <li>
+                      <a href="#">Awwards.com <span>Winner</span></a
+                      >2019-2020
+                    </li>
+
+                    <li>
+                      <a href="#">Design Awards <span>Winner</span></a
+                      >2017-2018
+                    </li>
+
+                    <li>
+                      <a href="#"
+                        >Designn nominees <span>Site of the day</span></a
+                      >2013-2014
+                    </li>
+
+                    <li>
+                      <a href="#">Awwards.com <span>Winner</span></a
+                      >2019-2020
+                    </li>
+                  </ul>
+                </div>
+
+                <div
+                  class="tab-pane fade"
+                  id="pills-Experiance"
+                  role="tabpanel"
+                  aria-labelledby="pills-Experiance-tab"
+                  tabindex="0"
+                >
+                  <ul class="text-start ps-0">
+                    <li>
+                      <a href="#"> Sr.Front-end Enginer <span>Google</span></a
+                      >2018 - Current
+                    </li>
+                    <li>
+                      <a href="#"> Front-end Enginer <span>-Microsoft</span></a
+                      >2017-2018
+                    </li>
+                    <li>
+                      <a href="#"> Software Enginer <span>- Alibaba</span></a
+                      >2013-2014
+                    </li>
+                    <li>
+                      <a href="#"> Software Enginer <span>-Alibaba</span></a
+                      >2013-2014
+                    </li>
+                  </ul>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="pills-Education"
+                  role="tabpanel"
+                  aria-labelledby="pills-Education-tab"
+                  tabindex="0"
+                >
+                  <ul class="text-start ps-0">
+                    <li>
+                      <a href="#"
+                        >BSc In CSE
+                        <span> - ABC University, Los Angeles, CA</span></a
+                      >
+                      2010
+                    </li>
+                    <li>
+                      <a href="#"
+                        >Diploma in Computer Science
+                        <span> - Gama Technical Institute</span></a
+                      >
+                      2009
+                    </li>
+                    <li>
+                      <a href="#">
+                        Graphic Designer
+                        <span>-ABC Institute, Los Angeles, CA</span></a
+                      >2007
+                    </li>
+                    <li>
+                      <a href="#"
+                        >Graphic Designer
+                        <span>-ABC Institute, Los Angeles, CA</span></a
+                      >2007
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- services -->
+
+    <section id="services" class="services-wrapper bg-dark text-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center mb-4">
+            <span class="Subtitle">What I can do for you</span>
+            <h2>My Awesome Service</h2>
+            <p>
+              There are many variations of passages of lorems Ipsum
+              available,<br class="d-none d-md-block" />
+              but the majority have suffered in some form, by injectecd humour.
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <div class="card-body text-md-center text-center">
+                <img
+                  src="docs/service/service-1.svg"
+                  alt="service"
+                  class="img-fluid mb-4"
+                />
+                <h2>Business Stratagy</h2>
+                <p>lorem Ipsum dolor sit amet, conse ctetur adipiscing elit.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <div class="card-body text-md-center text-center">
+                <img
+                  src="docs/service/service-2.svg"
+                  alt="service"
+                  class="img-fluid mb-4"
+                />
+                <h2>Website Development</h2>
+                <p>lorem Ipsum dolor sit amet, conse ctetur adipiscing elit.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <div class="card-body text-md-center text-center">
+                <img
+                  src="docs/service/service-3.svg"
+                  alt="service"
+                  class="img-fluid mb-4"
+                />
+                <h3>Mobile Development</h3>
+                <p>lorem Ipsum dolor sit amet, conse ctetur adipiscing elit.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <div class="card-body text-md-center text-center">
+                <img
+                  src="docs/service/service-2.svg"
+                  alt="service"
+                  class="img-fluid mb-4"
+                />
+                <h2>Mobile App Development</h2>
+                <p>lorem Ipsum dolor sit amet, conse ctetur adipiscing elit.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <div class="card-body text-md-center text-center">
+                <img
+                  src="docs/service/service-4.svg"
+                  alt="service"
+                  class="img-fluid mb-4"
+                />
+                <h2>Marketing & Reporting</h2>
+                <p>lorem Ipsum dolor sit amet, conse ctetur adipiscing elit.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <div class="card-body text-md-center text-center">
+                <img
+                  src="docs/service/service-1.svg"
+                  alt="service"
+                  class="img-fluid mb-4"
+                />
+                <h2>Mobile App Development</h2>
+                <p>lorem Ipsum dolor sit amet, conse ctetur adipiscing elit.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- portfolio-------- -->
+
+    <section id="portfolio" class="portfolio-wrapper bg-dark text-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center mb-4">
+            <span class="Subtitle">My Complete project</span>
+            <h2>My latest Project</h2>
+            <p>
+              There are many variations of passages of lorems Ipsum
+              available,<br class="d-none d-md-block" />
+              but the majority have suffered in some form, by injectecd humour.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card p-0">
+              <span
+                style="background-image: url('docs/portfolio/Foodies.png')"
+              ></span>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card p-0">
+              <span
+                style="
+                  background-image: url('docs/portfolio/App-Landing-Page.png');
+                "
+              ></span>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card p-0">
+              <span
+                style="
+                  background-image: url('docs/portfolio/E-Commerce-Website-Using-Bootstap-5.png');
+                "
+              ></span>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card p-0">
+              <span
+                style="background-image: url('docs/portfolio/HeadPhones.png')"
+              ></span>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card p-0">
+              <span
+                style="
+                  background-image: url('docs/portfolio/Ecommerce-Jewellery-Website.png');
+                "
+              ></span>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card p-0">
+              <span
+                style="
+                  background-image: url('docs/portfolio/Hashtag-Landing-Page.png');
+                "
+              ></span>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card p-0">
+              <span
+                style="
+                  background-image: url('docs/portfolio/Christmas-Landing-Page.png');
+                "
+              ></span>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card p-0">
+              <span
+                style="
+                  background-image: url('docs/portfolio/SEO-Landing-Page.png');
+                "
+              ></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact--------- -->
+
+    <section id="contact" class="contact-wrapper bg-dark text-white">
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <div
+            class="col-lg-6 order-2 order-lg-1 pe-lg-5 text-lg-start text-center"
+          >
+            <span class="Subtitle">My Complete project</span>
+            <h2>Hire Me.</h2>
+            <div class="row call-details mb-4">
+              <label class="col-sm3 col-lg-4" for="">Call us directly:</label>
+              <div class="col-sm9 col-lg-8 mb-3 mb-lg-2 text-md-start">
+                <a href="javascript:void(0)">+111 (0)55 5859 8976</a>
+              </div>
+
+              <label class="col-sm-3 col-lg-4">Contact Email:</label>
+              <div class="col-sm9 col-lg-8 mb-3 mb-lg-2 text-md-start">
+                <a href="mailto:exemple@gmail.com">exemple@gmail.com</a>
+              </div>
+            </div>
+            <form action="">
+              <div class="mb-4">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Your Name..."
+                  autocomplete="off"
+                />
+              </div>
+
+              <div class="mb-4">
+                <input
+                  type="number"
+                  class="form-control"
+                  placeholder="Your Phone..."
+                  autocomplete="off"
+                />
+              </div>
+
+              <div class="mb-4">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Your Email..."
+                  autocomplete="off"
+                />
+              </div>
+              <div class="mb-4">
+                <textarea
+                  name=""
+                  id="message"
+                  cols="40"
+                  rows="4"
+                  class="form-control"
+                  placeholder="Whrite a message..."
+                  autocomplete="off"
+                ></textarea>
+              </div>
+
+              <button type="submit" class="main-btn">Submite</button>
+            </form>
+          </div>
+          <div class="col-lg-6 order-1 mb-4 order-lg-1 mb-lg-0">
+            <img src="docs/contact.jpg" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- script-------- -->
-    <script src="https://kit.fontawesome.com/740f733f02.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/740f733f02.js"
+      crossorigin="anonymous"
+    ></script>
     <script>
-        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
-        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new 
-         bootstrap.Tooltip(tooltipTriggerEl))
+      const tooltipTriggerList = document.querySelectorAll(
+        '[data-bs-toggle="tooltip"]'
+      );
+      const tooltipList = [...tooltipTriggerList].map(
+        (tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl)
+      );
     </script>
-    <script src="docs/js/bootstrap.bundle.min.js"> </script>
+    <script src="docs/js/bootstrap.bundle.min.js"></script>
     <!-- ---------- -->
-</body>
+  </body>
 </html>
