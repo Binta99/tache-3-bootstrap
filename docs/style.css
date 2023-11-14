@@ -92,7 +92,7 @@ section {
   font-weight: 500;
   transition: all 0.45s cubic-bezier(0, 0, 0.2, 1);
   display: inline-block;
-  color: var(--text-grey);
+  color: gray;
   border: 0;
 }
 
@@ -172,4 +172,70 @@ section {
 
 .portfolio-wrapper .card:hover span {
   background-position: bottom center;
+}
+
+/* ------------contact------- */
+
+.contact-wrapper .form-control,
+.contact-wrapper textarea {
+  background-color: transparent;
+  border-color: gray;
+  color: gray;
+  padding: 10px 20px;
+  transition: 0.7s;
+}
+
+.contact-wrapper .form-control:hover,
+.contact-wrapper textarea:hover,
+.contact-wrapper .form-control:focus,
+.contact-wrapper textarea:focus {
+  border-color: brown;
+  color: white;
+  transform: translateY(-10px);
+}
+
+/* -----footer------------ */
+
+.footer-wrapper {
+  background-color: #08051d;
+  padding: 20px 0;
+}
+
+.footer-wrapper .footer-logo img {
+  width: 100px;
+}
+
+.footer-wrapper .social-icon li {
+  margin: 8px;
+}
+
+.footer-wrapper .social-icon a {
+  width: 35px;
+  height: 32px;
+  border: 2px solid gray;
+  border-radius: 100%;
+  font-size: 14px;
+  line-height: 30px;
+  text-align: center;
+  color: gray;
+  display: inline-block;
+  -webkit-transition: all 0.6s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.6s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.footer-wrapper .social-icon a:hover {
+  background-color: brown;
+  color: white;
+  border-color: brown;
+  transform: translateY(-6px);
+}
+
+.footer-wrapper .copyright-text p {
+  font-size: 11px;
+  line-height: 20px;
+}
+
+.footer-wrapper .copyright-text a {
+  text-decoration: none;
+  color: brown;
 }
